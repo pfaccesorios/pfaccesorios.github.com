@@ -1,0 +1,57 @@
+/*!
+ * Start Bootstrap - The Big Picture (https://startbootstrap.com/template-overviews/the-big-picture)
+ * Copyright 2013-2019 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
+ */
+body {
+  background: url('../images/hero2.webp') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  font-family: 'Montserrat', sans-serif;
+}
+.title{
+  font-size: 2rem;
+  margin:30px 30px 0 0;
+  }
+@media (min-width: 576px) { 
+  .title{
+  font-size: 3rem;
+  margin:50px 50px 0 0;
+  }
+ }
+
+@media (min-width: 768px) { 
+  .title{
+  font-size: 4rem;
+  margin:50px 50px 0 0;
+  }
+ }
+
+@media (min-width: 992px) { 
+  .title{
+  font-size: 4rem;
+  margin:50px 50px 0 0;
+  }
+ }
+
+@media (min-width: 1200px){
+  .title{
+    font-size: 5rem;
+    margin:100px 100px 0 0;
+    }
+.container {
+    max-width: 1340px;
+}
+}
+p {
+  font-size: 1.5rem;
+}
+h1{
+  font-size: 3.5rem;
+}
+.bg-dark {
+  background-color: #111111 !important;
+  z-index:100000;
+}
