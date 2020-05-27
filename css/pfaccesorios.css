@@ -12,14 +12,23 @@ body {
   background-color: #111111;
   font-family: 'Montserrat', sans-serif;
 }
+a{color:rgba(255,255,255,.5);}
+a:hover{color:rgba(255,255,255,.8);}
+
 .title{
   font-size: 2rem;
   margin:30px 30px 0 0;
+  }
+  .footerbar{
+    margin-bottom: 20%;
   }
 @media (min-width: 576px) { 
   .title{
   font-size: 3rem;
   margin:50px 50px 0 0;
+  }
+  .footerbar{
+    margin-bottom: 20%!important;
   }
  }
 
@@ -28,12 +37,18 @@ body {
   font-size: 4rem;
   margin:50px 50px 0 0;
   }
+  .footerbar{
+    margin-bottom: 15%!important;
+  }
  }
 
 @media (min-width: 992px) { 
   .title{
   font-size: 4rem;
   margin:50px 50px 0 0;
+  }
+  .footerbar{
+    margin-bottom: 10%!important;
   }
  }
 
@@ -42,7 +57,10 @@ body {
     font-size: 5rem;
     margin:100px 100px 0 0;
     }
-.container {
+  .footerbar{
+      margin-bottom: 5%!important;
+    }
+  .container {
     max-width: 1340px;
 }
 }
