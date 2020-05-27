@@ -4,11 +4,12 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-the-big-picture/blob/master/LICENSE)
  */
 body {
-  background: url('../images/hero2.webp') no-repeat center center fixed;
+  background: url('../images/hero2.png') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+  background-color: #111111;
   font-family: 'Montserrat', sans-serif;
 }
 .title{
