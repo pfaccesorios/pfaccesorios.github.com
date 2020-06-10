@@ -17,11 +17,14 @@ a:hover{color:rgba(255,255,255,.8);}
 
 .title{
   font-size: 2rem;
-  margin:30px 30px 0 0;
-  }
-  .footerbar{
-    margin-bottom: 20%;
-  }
+  margin:30px 30px 0 0; 
+}
+.footerbar{
+  margin-bottom: 20%;
+}
+h1{
+  font-size: 2rem!important;
+}
 @media (min-width: 576px) { 
   .title{
   font-size: 3rem;
@@ -30,7 +33,10 @@ a:hover{color:rgba(255,255,255,.8);}
   .footerbar{
     margin-bottom: 20%!important;
   }
- }
+  h1{
+    font-size: 3rem!important;
+  }
+}
 
 @media (min-width: 768px) { 
   .title{
@@ -39,6 +45,9 @@ a:hover{color:rgba(255,255,255,.8);}
   }
   .footerbar{
     margin-bottom: 15%!important;
+  }
+  h1{
+    font-size: 4rem!important;
   }
  }
 
@@ -50,9 +59,15 @@ a:hover{color:rgba(255,255,255,.8);}
   .footerbar{
     margin-bottom: 10%!important;
   }
+  h1{
+    font-size: 4rem!important;
+  }
  }
 
 @media (min-width: 1200px){
+  h1{
+    font-size: 5rem!important;
+  }
   .title{
     font-size: 5rem;
     margin:100px 100px 0 0;
